@@ -1,0 +1,54 @@
+body {
+  background: url(../img/1.jpg) 0 0 / 100% no-repeat;
+  position: fixed;
+}
+.car__body {
+  background: url("../img/2.png") 0 0 / 100% no-repeat;
+  z-index: 2;
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  width: 800px;
+  height: 800px;
+}
+
+.car__wheel {
+  background: url("../img/3.png") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 440px;
+  left: 265px;
+  width: 85px;
+  height: 85px;
+}
+.car__wheel--one {
+  background: url("../img/3.png") 0 0 / 100% no-repeat;
+  position: absolute;
+  top: 440px;
+  left: 630px;
+  width: 85px;
+  height: 85px;
+}
+.background__section {
+  background: url(../img/4.png) 0 0 / 100% no-repeat;
+  position: relative;
+  top: 530px;
+  left: 1500px;
+  width: 400px;
+  height: 400px;
+}
+.background__section-2 {
+  background: url(../img/5.png) 0 0 / 100% no-repeat;
+  position: fixed;
+  top: 25px;
+  width: 300px;
+  height: 300px;
+}
+.car__body:hover {
+  transform: translateX(530px);
+  transition: 8s ease-in;
+}
+
+.background__section-2:hover {
+  transform: rotate(360deg);
+  transition-duration: 5s;
+}
